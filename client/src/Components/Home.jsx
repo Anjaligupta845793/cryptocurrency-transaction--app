@@ -3,7 +3,7 @@ import { TransactionContext } from '../context/transaction';
 import { shortenaddress } from '../utilities/shortenaddress';
 import Services from './Services';
 import React, { useContext } from 'react'
-//{Isconnected ? <p>{shortenaddress(account)}</p> :<button onClick={ConnectWallet}>click</button>}
+
 const Home = () => {
  const {ConnectWallet,account,Isconnected,gettransactioncount} = useContext(TransactionContext);
 

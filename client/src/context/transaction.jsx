@@ -45,7 +45,7 @@ export const TransctionProvider = ({children}) => {
   }, [transactionCount])
   const gettransactioncount = async() => {
        const provider = new ethers.providers.Web3Provider(window.ethereum);
-      // await provider.send("eth_requestAccounts", []);
+      
   
   const signer = provider.getSigner();
   
@@ -141,8 +141,7 @@ setIsconnected(true);
   }
   const gettransaction = async() => {
      const provider = new ethers.providers.Web3Provider(window.ethereum);
- // await provider.send("eth_requestAccounts", []);
-  
+ 
   const signer = provider.getSigner();
   
   const Contract = new ethers.Contract(Contract_Address, Contract_ABI, provider);
