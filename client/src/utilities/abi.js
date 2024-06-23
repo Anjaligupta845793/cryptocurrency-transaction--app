@@ -1,4 +1,4 @@
- export const Contract_ABI =  [
+ export const Contract_ABI =   [
     {
       "anonymous": false,
       "inputs": [

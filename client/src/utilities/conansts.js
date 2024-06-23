@@ -1,3 +1,3 @@
-const Contract_Address = "0x8D364C287C9CEA5A702cAef1b2b56b1c8881a195";
+const Contract_Address = "0xCc8FB113eD240e4d28e72644749B4Ca4d1bC7FC4";
 import {Contract_ABI} from "./abi";
 export {Contract_Address,Contract_ABI};

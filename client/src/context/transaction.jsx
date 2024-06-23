@@ -64,7 +64,7 @@ export const TransctionProvider = ({children}) => {
     const network = await provider.getNetwork();
     console.log(network.name);
     console.log(network.chainId);
-    if(network.chainId != 5) {
+    if(network.chainId != 11155111) {
       window.alert("plese connect to goerli test network")
     }
 
